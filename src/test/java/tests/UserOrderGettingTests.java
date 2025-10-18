@@ -27,7 +27,7 @@ public class UserOrderGettingTests {
     @BeforeEach
     public void setUp() {
         // повторяющуюся для разных ручек часть URL запиcываем в переменную в BeforeEach
-        RestAssured.baseURI = "https://stellarburgers.nomoreparties.site";
+        RestAssured.baseURI = "https://stellarburgers.education-services.ru";
         ingredients.add("61c0c5a71d1f82001bdaaa70");
         order = new Order(ingredients);
         createNewOrderWitUserAuthorization(order);

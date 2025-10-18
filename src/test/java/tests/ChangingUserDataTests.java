@@ -23,7 +23,7 @@ public class ChangingUserDataTests {
     @BeforeEach
     public void setUp() {
         // повторяющуюся для разных ручек часть URL запиcываем в переменную в BeforeEach
-        RestAssured.baseURI = "https://stellarburgers.nomoreparties.site";
+        RestAssured.baseURI = "https://stellarburgers.education-services.ru";
         user = new User("8kotik8@mail.ru", "8kotik8", "8kotik8");
         Response response = createNewUser(user);
         accessToken = response.then().extract().path("accessToken");

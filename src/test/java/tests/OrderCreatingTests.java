@@ -32,7 +32,7 @@ public class OrderCreatingTests {
     @BeforeEach
     public void setUp() {
         // повторяющуюся для разных ручек часть URL запиcываем в переменную в BeforeEach
-        RestAssured.baseURI = "https://stellarburgers.nomoreparties.site";
+        RestAssured.baseURI = "https://stellarburgers.education-services.ru";
         order = new Order(ingredients);
     }
 
